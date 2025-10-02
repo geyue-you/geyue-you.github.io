@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"
-	<link rel="stylesheet" href="styles.css">
-	<title>My Web Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>My Portfolio</title>
 </head>
 <body>
-	<h1>Welcome!</h1>
-	<p>Here, you’ll find the projects I’m building as part of my MSBA studies at NTU. Keep learning.</p>
+	<header>
+		<h1>Welcome to My Portfolio</h1>
+		<p>MSBA @ NTU · Projects organized by Skills</p>
+		<nav>
+			<a href="#python">Python</a>
+			<a href="#r">R</a>
+			<a href="#sql">SQL</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="python">
+			<h2>Python Projects</h2>
+			<div class="card">
+				<h3>Hotel Booking Prediction</h3>
+				<p>Machine learning model to predict cancellations (focus on F2 score).</p>
+				<a href="https://github.com/yourusername/hotel-booking">View Repo</a>
+			</div>
+			<div class="card">
+				<h3>Superstore EDA</h3>
+				<p>Interactive data exploration with Streamlit & Plotly.</p>
+				<a href="https://github.com/yourusername/superstore-eda">View Repo</a>
+			</div>
+		</section>
+
+		<section id="r">
+			<h2>R Projects</h2>
+			<div class="card">
+				<h3>Time Series Forecast</h3>
+				<p>Forecasting economic indicators with ARIMA and Prophet.</p>
+				<a href="https://github.com/yourusername/r-time-series">View Repo</a>
+			</div>
+		</section>
+
+		<section id="sql">
+			<h2>SQL Projects</h2>
+			<div class="card">
+				<h3>Sales Analysis</h3>
+				<p>Complex joins and window functions for business insights.</p>
+				<a href="https://github.com/yourusername/sql-sales-analysis">View Repo</a>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>© 2025 My Portfolio · Built with GitHub Pages</p>
+	</footer>
 </body>
 </html>
